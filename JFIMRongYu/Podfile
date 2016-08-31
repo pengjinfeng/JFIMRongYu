@@ -1,0 +1,2 @@
+platform:ios,'8.0'
+pod 'RongCloudIMKit', '2.4.0'

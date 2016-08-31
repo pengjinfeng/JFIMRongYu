@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BC66B91D7133F100F0FE55 /* JFIMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC66B81D7133F100F0FE55 /* JFIMManager.m */; };
+		18BC66BC1D71349500F0FE55 /* JFChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC66BB1D71349500F0FE55 /* JFChatListViewController.m */; };
+		18BC66BF1D7134D600F0FE55 /* JFChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC66BE1D7134D600F0FE55 /* JFChatViewController.m */; };
+		18BC66C21D716B6D00F0FE55 /* 账号.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BC66C11D716B6D00F0FE55 /* 账号.png */; };
+		18C65DA21D701A7400955E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C65DA11D701A7400955E10 /* main.m */; };
+		18C65DA51D701A7400955E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C65DA41D701A7400955E10 /* AppDelegate.m */; };
+		18C65DAD1D701A7400955E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C65DAC1D701A7400955E10 /* Assets.xcassets */; };
+		18C65DB01D701A7400955E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C65DAE1D701A7400955E10 /* LaunchScreen.storyboard */; };
+		18C65DB81D701D2D00955E10 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DB71D701D2D00955E10 /* AssetsLibrary.framework */; };
+		18C65DBA1D701D3600955E10 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DB91D701D3600955E10 /* AudioToolbox.framework */; };
+		18C65DBC1D701D3F00955E10 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DBB1D701D3F00955E10 /* AVFoundation.framework */; };
+		18C65DBE1D701D4800955E10 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DBD1D701D4800955E10 /* CFNetwork.framework */; };
+		18C65DC01D701D5400955E10 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DBF1D701D5400955E10 /* CoreAudio.framework */; };
+		18C65DC21D701D5F00955E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DC11D701D5F00955E10 /* CoreGraphics.framework */; };
+		18C65DC41D701D6900955E10 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DC31D701D6900955E10 /* CoreLocation.framework */; };
+		18C65DC61D701D7200955E10 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DC51D701D7200955E10 /* CoreMedia.framework */; };
+		18C65DC81D701D7C00955E10 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DC71D701D7C00955E10 /* CoreTelephony.framework */; };
+		18C65DCA1D701D8500955E10 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DC91D701D8500955E10 /* CoreVideo.framework */; };
+		18C65DCC1D701D8E00955E10 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DCB1D701D8E00955E10 /* ImageIO.framework */; };
+		18C65DCE1D701D9C00955E10 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DCD1D701D9C00955E10 /* libc++.tbd */; };
+		18C65DD01D701DA700955E10 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DCF1D701DA700955E10 /* libc++abi.tbd */; };
+		18C65DD21D701DB200955E10 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DD11D701DB200955E10 /* libsqlite3.tbd */; };
+		18C65DD41D701DBC00955E10 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DD31D701DBC00955E10 /* libstdc++.tbd */; };
+		18C65DD61D701DC700955E10 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DD51D701DC700955E10 /* libxml2.tbd */; };
+		18C65DD81D701DD100955E10 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DD71D701DD100955E10 /* libz.tbd */; };
+		18C65DDA1D701DDB00955E10 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DD91D701DDB00955E10 /* MapKit.framework */; };
+		18C65DDC1D701DE700955E10 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DDB1D701DE700955E10 /* OpenGLES.framework */; };
+		18C65DDE1D701DF200955E10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DDD1D701DF200955E10 /* QuartzCore.framework */; };
+		18C65DE01D701DFE00955E10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DDF1D701DFE00955E10 /* SystemConfiguration.framework */; };
+		18C65DE21D701E0900955E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DE11D701E0900955E10 /* UIKit.framework */; };
+		18C65DE41D701E1400955E10 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C65DE31D701E1400955E10 /* Photos.framework */; };
+		88DF45EA609ABC308C01BEC1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FDC24F98532722D6947D13 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18BC66B71D7133F100F0FE55 /* JFIMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFIMManager.h; sourceTree = "<group>"; };
+		18BC66B81D7133F100F0FE55 /* JFIMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFIMManager.m; sourceTree = "<group>"; };
+		18BC66BA1D71349500F0FE55 /* JFChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFChatListViewController.h; sourceTree = "<group>"; };
+		18BC66BB1D71349500F0FE55 /* JFChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFChatListViewController.m; sourceTree = "<group>"; };
+		18BC66BD1D7134D600F0FE55 /* JFChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFChatViewController.h; sourceTree = "<group>"; };
+		18BC66BE1D7134D600F0FE55 /* JFChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFChatViewController.m; sourceTree = "<group>"; };
+		18BC66C01D71353000F0FE55 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18BC66C11D716B6D00F0FE55 /* 账号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账号.png"; sourceTree = "<group>"; };
+		18C65D9D1D701A7400955E10 /* JFIMRongYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFIMRongYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C65DA11D701A7400955E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C65DA31D701A7400955E10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C65DA41D701A7400955E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C65DAC1D701A7400955E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C65DAF1D701A7400955E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C65DB11D701A7400955E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C65DB71D701D2D00955E10 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		18C65DB91D701D3600955E10 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18C65DBB1D701D3F00955E10 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18C65DBD1D701D4800955E10 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18C65DBF1D701D5400955E10 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		18C65DC11D701D5F00955E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18C65DC31D701D6900955E10 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18C65DC51D701D7200955E10 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18C65DC71D701D7C00955E10 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18C65DC91D701D8500955E10 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		18C65DCB1D701D8E00955E10 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		18C65DCD1D701D9C00955E10 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		18C65DCF1D701DA700955E10 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		18C65DD11D701DB200955E10 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18C65DD31D701DBC00955E10 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		18C65DD51D701DC700955E10 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		18C65DD71D701DD100955E10 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18C65DD91D701DDB00955E10 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18C65DDB1D701DE700955E10 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		18C65DDD1D701DF200955E10 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18C65DDF1D701DFE00955E10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18C65DE11D701E0900955E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18C65DE31D701E1400955E10 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		5B95E4EBDE65F258A79E933B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		91885ACA39AD10731DFDC72F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A9FDC24F98532722D6947D13 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C65D9A1D701A7400955E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C65DE41D701E1400955E10 /* Photos.framework in Frameworks */,
+				18C65DE21D701E0900955E10 /* UIKit.framework in Frameworks */,
+				18C65DE01D701DFE00955E10 /* SystemConfiguration.framework in Frameworks */,
+				18C65DDE1D701DF200955E10 /* QuartzCore.framework in Frameworks */,
+				18C65DDC1D701DE700955E10 /* OpenGLES.framework in Frameworks */,
+				18C65DDA1D701DDB00955E10 /* MapKit.framework in Frameworks */,
+				18C65DD81D701DD100955E10 /* libz.tbd in Frameworks */,
+				18C65DD61D701DC700955E10 /* libxml2.tbd in Frameworks */,
+				18C65DD41D701DBC00955E10 /* libstdc++.tbd in Frameworks */,
+				18C65DD21D701DB200955E10 /* libsqlite3.tbd in Frameworks */,
+				18C65DD01D701DA700955E10 /* libc++abi.tbd in Frameworks */,
+				18C65DCE1D701D9C00955E10 /* libc++.tbd in Frameworks */,
+				18C65DCC1D701D8E00955E10 /* ImageIO.framework in Frameworks */,
+				18C65DCA1D701D8500955E10 /* CoreVideo.framework in Frameworks */,
+				18C65DC81D701D7C00955E10 /* CoreTelephony.framework in Frameworks */,
+				18C65DC61D701D7200955E10 /* CoreMedia.framework in Frameworks */,
+				18C65DC41D701D6900955E10 /* CoreLocation.framework in Frameworks */,
+				18C65DC21D701D5F00955E10 /* CoreGraphics.framework in Frameworks */,
+				18C65DC01D701D5400955E10 /* CoreAudio.framework in Frameworks */,
+				18C65DBE1D701D4800955E10 /* CFNetwork.framework in Frameworks */,
+				18C65DBC1D701D3F00955E10 /* AVFoundation.framework in Frameworks */,
+				18C65DBA1D701D3600955E10 /* AudioToolbox.framework in Frameworks */,
+				18C65DB81D701D2D00955E10 /* AssetsLibrary.framework in Frameworks */,
+				88DF45EA609ABC308C01BEC1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C65D941D701A7400955E10 = {
+			isa = PBXGroup;
+			children = (
+				18C65D9F1D701A7400955E10 /* JFIMRongYu */,
+				18C65D9E1D701A7400955E10 /* Products */,
+				49287106010BA6FC3F2964FF /* Pods */,
+				D0B8D747B8ECD606DEE08B35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C65D9E1D701A7400955E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C65D9D1D701A7400955E10 /* JFIMRongYu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C65D9F1D701A7400955E10 /* JFIMRongYu */ = {
+			isa = PBXGroup;
+			children = (
+				18C65DA31D701A7400955E10 /* AppDelegate.h */,
+				18C65DA41D701A7400955E10 /* AppDelegate.m */,
+				18BC66B71D7133F100F0FE55 /* JFIMManager.h */,
+				18BC66B81D7133F100F0FE55 /* JFIMManager.m */,
+				18BC66BA1D71349500F0FE55 /* JFChatListViewController.h */,
+				18BC66BB1D71349500F0FE55 /* JFChatListViewController.m */,
+				18BC66BD1D7134D600F0FE55 /* JFChatViewController.h */,
+				18BC66BE1D7134D600F0FE55 /* JFChatViewController.m */,
+				18BC66C11D716B6D00F0FE55 /* 账号.png */,
+				18C65DAC1D701A7400955E10 /* Assets.xcassets */,
+				18C65DAE1D701A7400955E10 /* LaunchScreen.storyboard */,
+				18C65DB11D701A7400955E10 /* Info.plist */,
+				18BC66C01D71353000F0FE55 /* PrefixHeader.pch */,
+				18C65DA01D701A7400955E10 /* Supporting Files */,
+			);
+			path = JFIMRongYu;
+			sourceTree = "<group>";
+		};
+		18C65DA01D701A7400955E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C65DA11D701A7400955E10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49287106010BA6FC3F2964FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91885ACA39AD10731DFDC72F /* Pods.debug.xcconfig */,
+				5B95E4EBDE65F258A79E933B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0B8D747B8ECD606DEE08B35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18C65DE31D701E1400955E10 /* Photos.framework */,
+				18C65DE11D701E0900955E10 /* UIKit.framework */,
+				18C65DDF1D701DFE00955E10 /* SystemConfiguration.framework */,
+				18C65DDD1D701DF200955E10 /* QuartzCore.framework */,
+				18C65DDB1D701DE700955E10 /* OpenGLES.framework */,
+				18C65DD91D701DDB00955E10 /* MapKit.framework */,
+				18C65DD71D701DD100955E10 /* libz.tbd */,
+				18C65DD51D701DC700955E10 /* libxml2.tbd */,
+				18C65DD31D701DBC00955E10 /* libstdc++.tbd */,
+				18C65DD11D701DB200955E10 /* libsqlite3.tbd */,
+				18C65DCF1D701DA700955E10 /* libc++abi.tbd */,
+				18C65DCD1D701D9C00955E10 /* libc++.tbd */,
+				18C65DCB1D701D8E00955E10 /* ImageIO.framework */,
+				18C65DC91D701D8500955E10 /* CoreVideo.framework */,
+				18C65DC71D701D7C00955E10 /* CoreTelephony.framework */,
+				18C65DC51D701D7200955E10 /* CoreMedia.framework */,
+				18C65DC31D701D6900955E10 /* CoreLocation.framework */,
+				18C65DC11D701D5F00955E10 /* CoreGraphics.framework */,
+				18C65DBF1D701D5400955E10 /* CoreAudio.framework */,
+				18C65DBD1D701D4800955E10 /* CFNetwork.framework */,
+				18C65DBB1D701D3F00955E10 /* AVFoundation.framework */,
+				18C65DB91D701D3600955E10 /* AudioToolbox.framework */,
+				18C65DB71D701D2D00955E10 /* AssetsLibrary.framework */,
+				A9FDC24F98532722D6947D13 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C65D9C1D701A7400955E10 /* JFIMRongYu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C65DB41D701A7400955E10 /* Build configuration list for PBXNativeTarget "JFIMRongYu" */;
+			buildPhases = (
+				F98310A80DD0AE06F6DC8F35 /* Check Pods Manifest.lock */,
+				18C65D991D701A7400955E10 /* Sources */,
+				18C65D9A1D701A7400955E10 /* Frameworks */,
+				18C65D9B1D701A7400955E10 /* Resources */,
+				0F9375181AEFBD1F2B514827 /* Embed Pods Frameworks */,
+				195979B57F1A80B90358DC5E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JFIMRongYu;
+			productName = JFIMRongYu;
+			productReference = 18C65D9D1D701A7400955E10 /* JFIMRongYu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C65D951D701A7400955E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = pengjf;
+				TargetAttributes = {
+					18C65D9C1D701A7400955E10 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 18C65D981D701A7400955E10 /* Build configuration list for PBXProject "JFIMRongYu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C65D941D701A7400955E10;
+			productRefGroup = 18C65D9E1D701A7400955E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C65D9C1D701A7400955E10 /* JFIMRongYu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C65D9B1D701A7400955E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C65DB01D701A7400955E10 /* LaunchScreen.storyboard in Resources */,
+				18BC66C21D716B6D00F0FE55 /* 账号.png in Resources */,
+				18C65DAD1D701A7400955E10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F9375181AEFBD1F2B514827 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		195979B57F1A80B90358DC5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98310A80DD0AE06F6DC8F35 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C65D991D701A7400955E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BC66BC1D71349500F0FE55 /* JFChatListViewController.m in Sources */,
+				18BC66B91D7133F100F0FE55 /* JFIMManager.m in Sources */,
+				18C65DA51D701A7400955E10 /* AppDelegate.m in Sources */,
+				18BC66BF1D7134D600F0FE55 /* JFChatViewController.m in Sources */,
+				18C65DA21D701A7400955E10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C65DAE1D701A7400955E10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C65DAF1D701A7400955E10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C65DB21D701A7400955E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C65DB31D701A7400955E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C65DB51D701A7400955E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91885ACA39AD10731DFDC72F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIMKit\"",
+					"\"$(SRCROOT)/JFIMRongYu/PrefixHeader.pch\"",
+				);
+				INFOPLIST_FILE = JFIMRongYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GJHL.JFIMRongYu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18C65DB61D701A7400955E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B95E4EBDE65F258A79E933B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIMKit\"",
+					"\"$(SRCROOT)/JFIMRongYu/PrefixHeader.pch\"",
+				);
+				INFOPLIST_FILE = JFIMRongYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GJHL.JFIMRongYu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C65D981D701A7400955E10 /* Build configuration list for PBXProject "JFIMRongYu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C65DB21D701A7400955E10 /* Debug */,
+				18C65DB31D701A7400955E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C65DB41D701A7400955E10 /* Build configuration list for PBXNativeTarget "JFIMRongYu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C65DB51D701A7400955E10 /* Debug */,
+				18C65DB61D701A7400955E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C65D951D701A7400955E10 /* Project object */;
+}
